@@ -159,7 +159,7 @@ class HomeInfoPointCard extends HTMLElement {
         }
         
         .grade-good { background-color: #4CAF50; } /* Green */
-        .grade-ok { background-color: #FFC107; color: black; } /* Yellow */
+        .grade-ok { background-color: #FFC107; color:} /* Yellow */
         .grade-orange { background-color: #FF9800; } /* Orange */
         .grade-light-red { background-color: #EF5350; } /* Light Red */
         .grade-bad { background-color: #D32F2F; } /* Dark Red */
