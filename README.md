@@ -13,15 +13,9 @@ Displays grades, averages, and absence information for students.
 
 ## Installation
 
-1. Copy `home-infopoint-card.js` to your `config/www/community/home_infopoint_card/` directory.
-2. Add the resource to your Lovelace configuration:
-   
-   ```yaml
-   resources:
-     - url: /hacsfiles/home_infopoint_card/home-infopoint-card.js
-       type: module
-   ```
-   *(Note: Adjust the URL if you are not using HACS or have a different path structure, e.g., `/local/community/home_infopoint_card/home-infopoint-card.js`)*
+
+1. Add this repository to HACS
+2. Install
 
 ## Configuration
 
@@ -33,7 +27,7 @@ type: custom:home-infopoint-card
 
 ## Requirements
 
-This card requires sensors created by the Home.InfoPoint integration:
+This card requires sensors created by the [Home.InfoPoint integration](https://github.com/ToperGamesYT/home-infopoint):
 - `sensor.home_infopoint_absences_days`
 - `sensor.home_infopoint_unexcused_absences_days`
 - `sensor.home_infopoint_last_update`
