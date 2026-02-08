@@ -1,0 +1,13 @@
+{
+    "domain": "home_infopoint_card",
+    "name": "Home.InfoPoint Card",
+    "codeowners": [
+        "ToperGamesYT"
+    ],
+    "config_flow": true,
+    "documentation": "https://github.com/ToperGamesYT/home_infopoint_card",
+    "iot_class": "cloud_polling",
+    "issue_tracker": "https://github.com/ToperGamesYT/home_infopoint_card/issues",
+    "requirements": [],
+    "version": "1.0.0"
+}
